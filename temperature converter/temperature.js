@@ -3,7 +3,6 @@ function convertTemperature(){
     var unitSelect=document.getElementById("unitSelect").value;
     var resultElement=document.getElementById("result");
     var temperature=parseFloat(temperatureInput);
-
     if(isNaN(temperature)){
         resultElement.innerHTML = "Invalid temperature input";
         return;
